@@ -1,0 +1,151 @@
+
+img{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    background-color: rgba(5, 5, 5, .4);
+    align-items: center;
+    justify-content: center;
+    font-family: norse-bold;
+    font-size: 100px;
+    color: white;
+    padding: 10px 0;
+    position: absolute;
+    top: 150px
+}
+
+.logo img{
+    height: 15%;
+    width: 25%;
+}
+
+.left{
+    position: relative;
+    width: 1000px;
+}
+
+.right{
+    font-family: monaco, 'lucida console', monospace;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.right p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form{
+    width: 100%;
+}
+
+.white_container{
+    background-color: white;
+    width: 100%;
+    padding: 10px 40px;
+    box-shadow: 0 5px 5px #ccc;
+}
+
+.gray_container{
+    width: 100%;
+    padding: 40px 40px;
+}
+
+.paragraph{
+    margin: 10px 50px;
+}
+
+.form_row{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+label{
+    position: absolute;
+    top: -17px;
+}
+
+.form_heading{
+    margin-bottom: 40px;
+    font-size: 160%;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: #B3291F;
+    color: white;
+    height: 45px;
+    width: 190px;
+}
+
+button, input{
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #B3291F;
+}
+
+.gray_container p{
+    font-family: inherit;
+    font-size: 130%;
+}
+
+input{
+    appearance: none;
+    margin-right: 75px;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #E5E7Eb;
+    border-radius: 3px;
+}
+
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.error{
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: red;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
